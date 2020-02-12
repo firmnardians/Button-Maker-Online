@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  text-align: center;
+  padding: 30px;
+}
+.header h2 {
+  margin-bottom: 0px;
+  font-size: 31px;
+}
+.header p {
+  margin-top: 5px;
+}
+.card {
+  margin: 40px 20px;
+  align-items: center;
+  display: flex;
+}
+.cardLeft {
+  width: 50%;
+}
+.cardRight {
+  width: 50%;
+}
+.cardCustom {
+  padding: 20px;
+  height: auto;
+  border-radius: 6px;
+  margin-right: 10px;
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.317),
+    0 7px 18px rgba(0, 9, 128, 0.05);
+}
+button {
+  background-color: #6478ff;
+  padding: 16px;
+  font-weight: normal;
+  border: none;
+  font-size: 21px;
+  color: #ffffff;
+}
+.cardMyBabybutton {
+  height: auto;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.317),
+    0 7px 18px rgba(0, 9, 128, 0.05);
+}
+.dataButton {
+  align-items: center;
+  text-align: center;
+}
+.cardCode {
+  background: #333333;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 30px;
+  margin-top: 20px;
+}
+.selectorCss {
+  padding-left: 30px;
+}
+.selectorCss p {
+  color: #6478ff;
+}
+.selectorCss span {
+  color: aquamarine;
+}
+.cardCode {
+  color: rgb(255, 174, 0);
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .card {
+    margin: 20px;
+    align-items: center;
+    display: block;
+  }
+  .cardLeft {
+    width: 100%!important;
+  }
+  .cardRight {
+    width: 100%!important;
+  }
+  .cardCustom {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .cardMyBabybutton {
+    margin: 0px;
+  }
+}
